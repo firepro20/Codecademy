@@ -6,6 +6,7 @@
 int main()
 {
     std::cout << "Hello Codecademy!\n";
+	std::cout << "This is a new line";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
