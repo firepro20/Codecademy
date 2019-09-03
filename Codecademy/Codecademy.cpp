@@ -1,21 +1,29 @@
-// Codecademy.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <vector>
+
+void tenth_power_exercise();
 
 int main()
 {
     std::cout << "Hello Codecademy!\n";
-	std::cout << "This is a new line";
+	std::cout << "This is a new line\n\n";
+	tenth_power_exercise();
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+double tenth_power(int num) {
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+	return pow(num, 10);
+	//base, exponential
+
+}
+
+void tenth_power_exercise() {
+
+	std::cout << tenth_power(0) << "\n";
+	std::cout << tenth_power(1) << "\n";
+	std::cout << tenth_power(2) << "\n";
+
+}
+
+
